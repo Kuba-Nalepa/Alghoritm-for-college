@@ -22,8 +22,8 @@ fun main() {
         myMutableListInt = myMutableListInt.map {
             if(i == 0 && it % 3 == 0) {     // (doing it first time, and only first time)
                 return@map it               //  it checks if in our list there is no number dividable by 3
-            }                               //  jest to zabezpieczenie np. przed inputem liczb 3 3 2
-                                            //  gdzie kod normalnie zwrocilby 6 6 2
+            }
+            
             var changesToMakeNumDividable = howManyChanges(it)
                                  // splitting each number to digit
             val listOfChars = it.toString().toList().map {
