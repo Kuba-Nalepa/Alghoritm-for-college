@@ -1,4 +1,4 @@
-# Alghoritm-for-college
+# Division Algorithm
 
 ### Description of the project
 Write Kotlin Code that as an input accepts an array consisting of three numbers (integers).
